@@ -21,8 +21,8 @@ h2 {
   text-align: center;
   font-size: 4rem;
 }
-span{
-    color: white;
+span {
+  color: white;
 }
 
 a {
@@ -33,33 +33,33 @@ a {
 .root div {
   margin: 20px;
 }
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    box-shadow: 0px 10px 50px 0.2px rgba(255, 255, 255, 0.25);
-    border-radius: 15px;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 0px 10px 50px 0.2px rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
 }
 .arrange div {
-    margin: 60px;
-    padding: 20px;
-    box-shadow: 0px 0px 30px 0.9px rgba(20, 13, 13, 0.8);
-    border: 2px ridge transparent;
-    transition: 0.5s ease-out;
-    position: relative;
+  margin: 60px;
+  padding: 20px;
+  box-shadow: 0px 0px 30px 0.9px rgba(20, 13, 13, 0.8);
+  border: 2px ridge transparent;
+  transition: 0.5s ease-out;
+  position: relative;
 }
-.arrange div:hover{
-    border: 2px ridge cadetblue;
-    transition: 0.5s ease-in;
-    font-weight: bold;
-
+.arrange div:hover {
+  border: 2px ridge cadetblue;
+  transition: 0.5s ease-in;
+  font-weight: bold;
 }
-.arrange div:hover i{
-    color: white;
-    transition: 0.4s ease-in-out;
+i:hover {
+  color: white;
+  transition: 0.4s ease-in-out;
 }
-i{
-    right: 100px;
-    position: absolute;
-    color: cadetblue;
-    transition: 0.4s ease-in-out;
+i {
+  right: 100px;
+  position: absolute;
+  color: cadetblue;
+  transition: 0.4s ease-in-out;
+  padding: 5px 30px;
 }
