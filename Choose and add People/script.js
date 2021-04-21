@@ -14,7 +14,6 @@ app.controller("MovePeopleController",function($scope){
         {"pic":"images/avatar5.png", "name":"Cleoptra"},
         {"pic":"images/avatar6.png", "name":"Cyrus"},
         {"pic":"images/avatar7.png", "name":"Dido"},
-        {"pic":"images/avatar8.png", "name":"Gandhi"},
     ];  
    
 }); 
