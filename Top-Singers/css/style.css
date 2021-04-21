@@ -1,49 +1,66 @@
-.top-area{
-    border:10px solid purple;
-    text-align: center;
-    padding: 5px 0;
-    }
-    
-    .top-size{
-    font-size: 40px;
-    }
-    
-    button{
-    width:70px;
-    height: 60px; 
-    }
-    
-    .singer-table{
-    width: 100%;
-    }
-    
-    .singer-table td{
-    padding: 5px 10px;
-    border:2px solid gray;
-    text-align: center;
-    }
-    
-    .singer-pic{
-        width:70px;
-        border:3px solid gray;
-    }
-    
-    .name-size{
-        width:300px;
-        font-size: 35px;
-    }
-    
-    .name-size:hover{
-        font-size: 25px;
-        background-color:gray ;
-        color:white;
-    }
-    
-    .quality-icon{
-        width:60px;
-        border-radius: 60px;
-    }
-    
-    .quality-icon:hover {
-        width:50px;
-    }
+body {
+  font-family: Bitter;
+
+  height: 100vh;
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/sing.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  position: relative;
+  color: white;
+}
+
+.top-area {
+  border: 10px solid #008aff;
+  text-align: center;
+  padding: 5px 0;
+  box-shadow: 0px 0px 30px 0.3px rgba(0,0,0,0.3);
+}
+
+.top-size {
+  font-size: 40px;
+}
+
+button {
+  width: 70px;
+  height: 60px;
+}
+
+.singer-table {
+  width: 100%;
+}
+
+.singer-table td {
+  padding: 5px 10px;
+  border: 2px solid gray;
+  text-align: center;
+}
+
+.singer-pic {
+  width: 70px;
+  border: 3px solid gray;
+}
+
+.name-size {
+  width: 300px;
+  font-size: 35px;
+}
+
+.name-size:hover {
+  font-size: 25px;
+  background-color: gray;
+  color: white;
+}
+
+.quality-icon {
+  width: 60px;
+  border-radius: 60px;
+}
+
+.quality-icon:hover {
+  width: 50px;
+}
