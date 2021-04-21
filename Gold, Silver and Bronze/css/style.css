@@ -1,47 +1,71 @@
-*{
-    padding: 3px;
-    text-align: center;
-    border-radius: 20px;
+* {
+  padding: 3px;
+  text-align: center;
+  border-radius: 20px;
+}
+body {
+  font-family: Bitter;
 
+  height: 100vh;
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/game.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  position: relative;
+  color: white;
+  justify-content: center;
 }
 
-.gold{background-color: gold;}
-.silver{background-color: silver;}
-.bronze{background-color: #b08d57;}
+.gold {
+  background-color: gold;
+}
+.silver {
+  background-color: silver;
+}
+.bronze {
+  background-color: #b08d57;
+}
 
-.top-area{
-    width: 150px;
-    height: 150px;
-    float: left;
-    margin: 3px 5px;
-    border: 2px solid black;
-    border-radius: 30px;
+.top-area {
+  width: 200px;
+  height: 150px;
+  float: left;
+  margin: 3px 5px;
+  border: 2px solid black;
+  border-radius: 30px;
+  
 }
-.top-area:hover{
-    opacity: 0.8;
-    border: 5px ridge black;
+.top-area:hover {
+  opacity: 0.8;
+  border: 5px ridge black;
 }
-.bottom-area{
-    float:left;
-    width: 100%;
-    margin: 100px 0px;
-    border: 10px double black;
-    font-size: 1.9rem;
-
+.bottom-area {
+  float: left;
+  width: 100%;
+  margin: 100px 0px;
+  border: 10px double black;
+  font-size: 1.9rem;
 }
-.bottom-area:hover{
-    opacity: 0.6;
-    border: 10px ridge black;
+.bottom-area:hover {
+  opacity: 0.6;
+  border: 10px ridge black;
 }
-button:hover{
-    border: 5px ridge black;
+button:hover {
+  border: 5px ridge black;
 }
-img{
-    width: 100px ;
+img {
+  width: 100px;
 }
-img:hover{
-    border: 5px ridge white;
+img:hover {
+  border: 5px ridge white;
 }
-hr{
-    border: 2px ridge gray;
+hr {
+  border: 2px ridge gray;
+}
+h1{
+    font-size: 5rem;
 }
