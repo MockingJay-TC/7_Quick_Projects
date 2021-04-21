@@ -1,9 +1,40 @@
+body {
+    font-family: Bitter;
+  
+    height: 100vh;
+    background-image: -webkit-linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../images/paint.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+    color: white;
+  }
+
+
 button{
-    width: 100px;
+    width: 200px;
     height: 100px;
+    margin: 0 15px;
+    font-size: 1.5rem;
+
 }
 .big{
-    width: 200px;
-    height: 200px;
-    border-radius:200px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    align-items: center;
+    margin: 15px;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 5rem;
+}
+table{
+    margin: auto;
+    box-shadow: 0px 0px 30px 0.4px rgba(0,0,0,0.7);
 }
